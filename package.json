@@ -1,0 +1,32 @@
+{
+  "name": "inowing-webinar-cms",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@nuxt/eslint": "^1.9.0",
+    "@nuxt/icon": "^2.0.0",
+    "@nuxt/ui": "^4.0.0",
+    "@nuxtjs/supabase": "^2.0.1",
+    "@tailwindcss/vite": "^4.1.13",
+    "eslint": "^9.35.0",
+    "nuxt": "^4.1.2",
+    "tailwindcss": "^4.1.13",
+    "vue": "^3.5.21",
+    "vue-router": "^4.5.1"
+  },
+  "devDependencies": {
+    "@iconify-json/lucide": "^1.2.69",
+    "typescript": "^5.9.3",
+    "vue-tsc": "^3.1.1"
+  },
+  "overrides": {
+    "@supabase/supabase-js": "2.81.1"
+  }
+}
